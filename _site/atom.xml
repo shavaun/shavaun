@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Hi! I'm Shavaun.</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2020-01-12T18:03:19-10:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Shavaun Tesareski</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>API Documentation Samples</title>
+   <link href="http://localhost:4000/writingsamples/2019/11/11/api_samples.html"/>
+   <updated>2019-11-11T10:25:00-10:00</updated>
+   <id>http://localhost:4000/writingsamples/2019/11/11/api_samples</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>User Guide Samples</title>
+   <link href="http://localhost:4000/writingsamples/2019/11/10/user_guides.html"/>
+   <updated>2019-11-10T10:15:00-10:00</updated>
+   <id>http://localhost:4000/writingsamples/2019/11/10/user_guides</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Standard Operating Procedure Samples</title>
+   <link href="http://localhost:4000/writingsamples/2019/11/09/sop_samples.html"/>
+   <updated>2019-11-09T10:15:00-10:00</updated>
+   <id>http://localhost:4000/writingsamples/2019/11/09/sop_samples</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Developer Communication Samples</title>
+   <link href="http://localhost:4000/writingsamples/2019/11/08/other_samples.html"/>
+   <updated>2019-11-08T10:15:00-10:00</updated>
+   <id>http://localhost:4000/writingsamples/2019/11/08/other_samples</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>
