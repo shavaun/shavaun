@@ -16,7 +16,7 @@
 title: "Hi! I'm Shavaun."
 email: 'shavaun@victoriousninja.com'
 description: "I'm a technical writer and I love to bring people together by solving communication problems."
-baseurl: "/_site/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://shavaun.github.io/portfolio" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: 'shavaun'
 linkedin_username: 'shavaunt'
@@ -54,5 +54,5 @@ enable_contact: false
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
-  - { url: '/_site/', text: 'Home' }
-  - { url: '/_site/about', text: 'About' }
+  - { url: '/', text: 'Home' }
+  - { url: '/about', text: 'About' }
