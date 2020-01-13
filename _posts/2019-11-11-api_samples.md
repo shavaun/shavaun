@@ -12,7 +12,7 @@ primary_sample_description: 'Directions for how to use an API endpoint to create
 primary_sample_copyright: 'Chain.io'
 primary_sample_type: 'image'
 more_samples:
-  - content_url: '/samples/api_samples/swagger.yaml'
+  - content_url: '/samples/api_samples/swagger_sample.yml'
     type: 'text'
     title: 'Sample of Swagger/OpenAPI 3 YAML File'
     description: 'A simplified version of a YAML file for a Swagger API that is part of a personal project.'
