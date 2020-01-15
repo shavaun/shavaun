@@ -1,3 +1,8 @@
+.content-wrap .content h3.title::after {
+    display: none;
+
+}
+
 button i.vertical-aligned {
     vertical-align: bottom;
 }
