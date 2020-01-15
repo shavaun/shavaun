@@ -21,6 +21,7 @@ a.more_samples_link i.material-icons {
 
 .hero-container {
     margin-bottom: 2em;
+    display:block;
 }
 
 .content-wrap .content {
@@ -40,3 +41,13 @@ body {
 .main.container {
     background-color:#e9edf0;
 }
+
+button.btn-lg {
+    font-size:1.3em;
+}
+
+@media only screen and (max-width: 400px) {
+    button.btn-lg {
+        font-size:1em;
+        padding: 5px;
+    }
