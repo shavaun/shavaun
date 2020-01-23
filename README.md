@@ -9,6 +9,6 @@ This is the repo for my Technical Writing portfolio. To view the site, go to htt
 - [Wow](https://github.com/matthieua/WOW) (C) 2014 - 2016 Matthieu Aussaguel , GPL
 - [Animate.css](https://github.com/daneden/animate.css) (C) 2016 Daniel Eden, MIT
 
-If you'd like to use this theme for your own portfolio, use Jami Jibbs' instructions in their repo. I have removed some features that I don't use, so I suggest using his original version instead of cloning this repo.
+If you'd like to use this theme for your own portfolio, use Jami Jibbs' instructions in their repo. I have removed some features that I don't use, so I suggest using their original version instead of cloning this repo.
 
-To contact Shavaun, send an email to shavaun@victoriousninja.com or send a message [LinkedIn](https://www.linkedin.com/in/stesareski/).
+To contact me, send an email to shavaun.tesareski@gmail.com or send a [LinkedIn](https://www.linkedin.com/in/stesareski/) message.
