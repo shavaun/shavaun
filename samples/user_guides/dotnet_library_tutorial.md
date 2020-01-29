@@ -99,7 +99,7 @@ Now that the class has all of the code it needs to draw the sheet music when it 
 <ManufakturaControls:NoteViewer ScoreSource="{Binding Data}" RenderingMode="SinglePage"/>
 ```
 
-4. Hover your mouse over the *ManufackturaControls:NoteViewer* tag and press Alt+Enter on your keyboard. Visual Studio will provide a suggestion to add the missing namespace, press Enter again to automatically fill in the correct namespace.
+4. Hover your mouse over the *ManufakturaControls:NoteViewer* tag and press Alt+Enter on your keyboard. Visual Studio will provide a suggestion to add the missing namespace, press Enter again to automatically fill in the correct namespace.
 
 Your *MainWindow.xaml* file should now look like this:
 
