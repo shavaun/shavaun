@@ -1,6 +1,6 @@
 # Tutorial: Make a Windows Application with .Net That Displays Sheet Music
 
-This tutorial walks you through the steps to use [Microsoft Visual Studio](https://visualstudio.microsoft.com/) to create a small Windows application that displays sheet music from a [MusicXML](https://www.musicxml.com) file.
+This tutorial walks you through the steps to use [Microsoft Visual Studio](https://visualstudio.microsoft.com/) to create a small Windows application that displays sheet music from a [MusicXML](https://www.musicxml.com) file. Much of the code in this tutorial is based on information in this [article](http://manufaktura-controls.com/en-US/Articles/Display?id=2) and the [test code for the Manufaktura library](https://bitbucket.org/Ajcek/manufakturalibraries).
 
 ## Requirements
 
@@ -34,7 +34,7 @@ To setup the environment new application, perform the following steps within Vis
 4. Select *Manufaktura.Controls* from the list of results and click *Install*.
 5. At the top of the *NuGet* tab, click *X* to close the tab.
 
-## Step 3: Create the data model class
+## Step 3: Create the DataViewModel class
 
 To use Manufaktura, we need to create a class for the data model. This will contain the directions for what to draw and how to draw it.
 
@@ -86,9 +86,9 @@ namespace MusicSample
 }
 ```
 
-## Step 4: Update the XAML file to draw the sheet music
+## Step 4: Update the MainWindow.xaml file to draw the sheet music
 
-Now that the class has all of the code it needs to draw the sheet music when it is called, we need to update the XAML file to display the NoteViewer created by the DataViewModel.
+The *MainWindow.xaml* file defines what is drawn in the application window. We want the application to draw the sheet music there, so we nee to add a tag for the NoteViewer. We will also create a small margin around the sheet music so it is easier to read.
 
 1. Click the *MainWindow.xaml* tab to switch to that file.
 2. Add the *Margin* attribute to the *Grid* tag and set it to a value of *10*.
@@ -121,9 +121,9 @@ Your *MainWindow.xaml* file should now look like this:
 
 ```
 
-## Step 5: Call the class
+## Step 5: Update MainWndow.xaml.cs to call the DataViewModel class
 
-The only code left is to add the code that calls the DataViewModel class.
+Currently, the DataViewModel class exists, but the application does not call it so it does not draw anything. The main application code is in the *MainWindow.xaml.cs* file, so we need to add code there to call the class.
 
 1. Click the *MainWindow.xaml.cs* tab to switch to that file.
 2. In the *MainWindow* method, add the following code below `InitializeComponent();`:
