@@ -88,7 +88,7 @@ namespace MusicSample
 
 ## Step 4: Update the MainWindow.xaml file to draw the sheet music
 
-The MainWindow.xaml file defines what is drawn in the application window. We want the application to draw the sheet music there, so we nee to add a tag for the NoteViewer. We will also create a small margin around the sheet music so it is easier to read.
+The *MainWindow.xaml* file defines what is drawn in the application window. We want the application to draw the sheet music there, so we nee to add a tag for the NoteViewer. We will also create a small margin around the sheet music so it is easier to read.
 
 1. Click the *MainWindow.xaml* tab to switch to that file.
 2. Add the *Margin* attribute to the *Grid* tag and set it to a value of *10*.
