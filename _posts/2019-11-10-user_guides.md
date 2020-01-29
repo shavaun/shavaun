@@ -16,6 +16,7 @@ more_samples:
     type: 'TXT'
     title: 'Tutorial: Make a Windows Application with .Net That Displays Sheet Music'
     description: 'Explains how to use the Manufaktura .Net library to display sheet music with C#.'
+    copyright: 'None'
   - content_url: '/samples/user_guides/manage2_account_history.pdf'
     type: 'PDF'
     title: 'Account History'
