@@ -8,6 +8,8 @@ To follow this tutorial, you will need the following:
 
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com/) on Windows 10.
 - A MusicXML file. There are many public domain MusicXML files available at the [Petrucci Music Library](https://imslp.org).
+- Beginner-level familiarity with XML
+- Beginner-level familiarity with C#
 
 All required libraries will be installed through this tutorial.
 
@@ -23,17 +25,17 @@ To setup the environment new application, perform the following steps within Vis
 
 3. Enter "MusicSample" as the project name and click *Create*.
 
-## Step 2: Install Manufaktura library
+## Step 2: Install the Manufaktura library
 
 [Manufaktura](http://manufaktura-controls.com/en-US/Home/) is a library that provides classes for creating and displaying sheet music. We will use it to load a MusicXML file and draw the sheet music in the application.
 
 1. From the *Project* menu, select *Manage NuGet Packages...*.
-2. Click *Browse* and enter "Manufaktura.Controls" into the *Search* field.
+2. Click *Browse* and enter "Manufaktura.Controls* into the *Search* field.
 3. Select *Manufaktura.Controls.WPF" from the list of results and click *Install*.
 4. Select *Manufaktura.Controls* from the list of results and click *Install*.
-5. At the top of the NuGet tab, click the *X* to close the NuGet tab.
+5. At the top of the *NuGet* tab, click *X* to close the tab.
 
-## Step 3: Setup the data model
+## Step 3: Setup the data model class
 
 To use Manufaktura, we need to create a class for the data model. This will contain the directions for what to draw and how to draw it.
 
@@ -90,14 +92,14 @@ namespace MusicSample
 Now that the class has all of the code it needs to draw the sheet music when it is called, we need to update the XAML file to display the NoteViewer created by the DataViewModel.
 
 1. Click the *MainWindow.xaml* tab to switch to that file.
-2. Add the *Margin* attribute to the *Grid* element and set it to a value of *10*.
-3. Insert the following code so that it is inside the *Grid* element:
+2. Add the *Margin* attribute to the *Grid* tag and set it to a value of *10*.
+3. Insert the following code so that it is inside the *Grid* tag:
 
 ```
 <ManufakturaControls:NoteViewer ScoreSource="{Binding Data}" RenderingMode="SinglePage"/>
 ```
 
-4. Hover your mouse over the *ManufackturaControls:NoteViewer* element and press Alt+Enter on your keyboard. Visual Studio will provide a suggestion to add the missing namespace, press Enter again to automatically fill in the correct namespace.
+4. Hover your mouse over the *ManufackturaControls:NoteViewer* tag and press Alt+Enter on your keyboard. Visual Studio will provide a suggestion to add the missing namespace, press Enter again to automatically fill in the correct namespace.
 
 Your *MainWindow.xaml* file should now look like this:
 
