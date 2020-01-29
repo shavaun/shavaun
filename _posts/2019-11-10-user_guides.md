@@ -12,6 +12,10 @@ primary_sample_description: 'A highly technical guide that provides directions t
 primary_sample_copyright: 'cPanel, Inc.'
 primary_sample_type: 'PDF'
 more_samples:
+  - content_url: '/samples/user_guides/dotnet_library_tutorial.md'
+    type: 'TXT'
+    title: 'Tutorial: Make a Windows Application with .Net That Displays Sheet Music'
+    description: 'Explains how to use the Manufaktura .Net library to display sheet music with C#.'
   - content_url: '/samples/user_guides/manage2_account_history.pdf'
     type: 'PDF'
     title: 'Account History'
