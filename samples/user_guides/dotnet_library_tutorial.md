@@ -8,8 +8,8 @@ To follow this tutorial, you will need the following:
 
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com/) on Windows 10.
 - A MusicXML file. There are many public domain MusicXML files available at the [Petrucci Music Library](https://imslp.org).
-- Beginner-level familiarity with XML
-- Beginner-level familiarity with C#
+- Beginner-level familiarity with XML.
+- Beginner-level familiarity with C#.
 
 All required libraries will be installed through this tutorial.
 
@@ -20,14 +20,13 @@ To setup the environment new application, perform the following steps within Vis
 1. From the *File* menu, select *New* > *Project...*.
 2. Select *WPF App (.NET Framework)* from the list of project templates and click *Next*.
 
-   Tip: To assist with locating the correct template, type *WPF* into the *Search for templates* field. If you still do not see the *WPF App 
-(.NET Framework)* template, click *Install more tools and features* and follow the steps to install it.
+   Tip: To assist with locating the correct template, type *WPF* into the *Search for templates* field. If you still do not see the *WPF App (.NET Framework)* template, click *Install more tools and features* and follow the steps to install it.
 
 3. Enter "MusicSample" as the project name and click *Create*.
 
 ## Step 2: Install the Manufaktura library
 
-[Manufaktura](http://manufaktura-controls.com/en-US/Home/) is a library that provides classes for creating and displaying sheet music. We will use it to load a MusicXML file and draw the sheet music in the application.
+[Manufaktura](http://manufaktura-controls.com/en-US/Home/) is a library that provides classes for creating and displaying sheet music. We will use it to load the MusicXML file and draw the sheet music in the application.
 
 1. From the *Project* menu, select *Manage NuGet Packages...*.
 2. Click *Browse* and enter "Manufaktura.Controls* into the *Search* field.
@@ -35,7 +34,7 @@ To setup the environment new application, perform the following steps within Vis
 4. Select *Manufaktura.Controls* from the list of results and click *Install*.
 5. At the top of the *NuGet* tab, click *X* to close the tab.
 
-## Step 3: Setup the data model class
+## Step 3: Create the data model class
 
 To use Manufaktura, we need to create a class for the data model. This will contain the directions for what to draw and how to draw it.
 
